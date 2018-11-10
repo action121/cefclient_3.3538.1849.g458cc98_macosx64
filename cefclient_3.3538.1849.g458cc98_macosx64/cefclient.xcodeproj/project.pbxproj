@@ -1,0 +1,1198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB16565390349D790EBA60E /* test_runner.cc in Sources */ = {isa = PBXBuildFile; fileRef = 417523B426B244DE98405485 /* test_runner.cc */; };
+		1E9B0F19338F4C839F823187 /* browser_window.cc in Sources */ = {isa = PBXBuildFile; fileRef = A20BBE388A734B1C8E9C182F /* browser_window.cc */; };
+		20BB988C73154323B430565B /* main_context.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA97195E074568B24183AB /* main_context.cc */; };
+		227BBDF7BF354C1AA8206F77 /* client_switches.cc in Sources */ = {isa = PBXBuildFile; fileRef = 640DCD9F8EFB4B7781A5015C /* client_switches.cc */; };
+		270391F7BBD64992866CB27E /* client_app_renderer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8E71172F3A164B2BA331D14F /* client_app_renderer.cc */; };
+		2DE33A8FADB545BC9D30C6DB /* preferences_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = AF4458580AAF473D8399DD5E /* preferences_test.cc */; };
+		31DBFB8D69BA44FBA78FB6DE /* client_switches.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9061CA32B1BD46E4816EA081 /* client_switches.cc */; };
+		326FC6A488AA492CA32C0EC6 /* client_renderer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 77F730C048C24FE88666D218 /* client_renderer.cc */; };
+		332ABFE51FDC4626975D8849 /* osr_accessibility_node.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D416F5F9D448D9F066DBF /* osr_accessibility_node.cc */; };
+		349C958B37B94E66BA1E3925 /* scheme_test_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = F47AD22F3ED9454A8435934F /* scheme_test_common.cc */; };
+		3C63CFB5F0E0447AB92DDAB1 /* main_message_loop_external_pump.cc in Sources */ = {isa = PBXBuildFile; fileRef = BEA142ECCDFE4B0E98E52F94 /* main_message_loop_external_pump.cc */; };
+		45D64863901A45988447E6CA /* window_test_runner.cc in Sources */ = {isa = PBXBuildFile; fileRef = D36113AEFF8645A18AF0F59E /* window_test_runner.cc */; };
+		483975FA6A614CBEA1D7F17D /* extension_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = C5C326189D534A51A9D6F94A /* extension_util.cc */; };
+		4B899D08E59C494E89BB3179 /* file_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = F097EFB5951C416FAF006CC5 /* file_util.cc */; };
+		4E25AD0D3C06422B9B8ED206 /* client_app.cc in Sources */ = {isa = PBXBuildFile; fileRef = E1EC7621BD7E4F1484FC854F /* client_app.cc */; };
+		5129D4F2A8D8449CA5EAF17C /* client_app.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA95AD8BC8426F9EC9B86B /* client_app.cc */; };
+		59A814357B724098A42AC212 /* scheme_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 066C9F995FA24E06BB05156F /* scheme_test.cc */; };
+		5AF26E7BA0A34A3F843CC4D6 /* osr_accessibility_node_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA71B94136114F94A3186FF8 /* osr_accessibility_node_mac.mm */; };
+		5B2D16B12F2B4F32BAE8992A /* main_message_loop_external_pump_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD7F6BB06D334BDCA4D8F698 /* main_message_loop_external_pump_mac.mm */; };
+		5E6D254D89D1412C949B713A /* scheme_test_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2597EFE35E4D4F568D5ED089 /* scheme_test_common.cc */; };
+		5F79F0F2036D46879449DA63 /* root_window_create.cc in Sources */ = {isa = PBXBuildFile; fileRef = BCD6E760DF4B4443A6733650 /* root_window_create.cc */; };
+		62A626B658F54C39B058359A /* main_context_impl_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = DD5EB70DFEDC41F7A89322EF /* main_context_impl_posix.cc */; };
+		62D3CD7DA99645C083878867 /* resource_util_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 29E2C7DE321647E3AC9F246E /* resource_util_posix.cc */; };
+		6B1C0D8B8BC3451DAC23B618 /* client_app_delegates_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = EF71D28F480340B69DAC00F2 /* client_app_delegates_common.cc */; };
+		6F5C8D145DA240DC8559CD3E /* bytes_write_handler.cc in Sources */ = {isa = PBXBuildFile; fileRef = B5054CCA36B14A0F82C82B41 /* bytes_write_handler.cc */; };
+		6FCDFA8CCEDD43DDAA13B609 /* client_handler_std.cc in Sources */ = {isa = PBXBuildFile; fileRef = 94C56EBC02B4413E88BABA31 /* client_handler_std.cc */; };
+		79A0ECF699454D10A743348A /* dialog_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A20D787EB4079BFF83FB2 /* dialog_test.cc */; };
+		7DD55F42B09D425887E13705 /* performance_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7C2F34B099FB448FABF040C3 /* performance_test.cc */; };
+		806B0B20ABED4927AC210E85 /* client_handler_osr.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DFA512D47942A3AB8D103D /* client_handler_osr.cc */; };
+		81E95BA4BD8C4B97AD9ECDEC /* osr_accessibility_helper.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7BA84B30801847FFAE3A151B /* osr_accessibility_helper.cc */; };
+		87A9E8446131412789B5B9C5 /* browser_window_std_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99FE3E2F18354D2E9D8800B0 /* browser_window_std_mac.mm */; };
+		88476B424D9C4F60833DFF0D /* performance_test_tests.cc in Sources */ = {isa = PBXBuildFile; fileRef = A2C547A0D2E4471D9DA49524 /* performance_test_tests.cc */; };
+		8F99D4EB54274033A3432E0F /* client_browser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5CE05AE2A4D444CD8E2D466C /* client_browser.cc */; };
+		90A4F95A14B9464986DE365A /* response_filter_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69F14500F8D2480E8838BBBD /* response_filter_test.cc */; };
+		9304F950C41743BBAE8DE0DD /* server_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = C0CE1FF91F664E2190676F69 /* server_test.cc */; };
+		9321A3F1CB9943F0BC8EE66F /* resource_util_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 11EBCBC99A9247F9868AD48F /* resource_util_mac.mm */; };
+		967C2C7FAD2545DE81C4A4A5 /* main_message_loop.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3943CF9B4B0543B1A8009C7C /* main_message_loop.cc */; };
+		98584FEB4F3A48EDA29010DC /* root_window.cc in Sources */ = {isa = PBXBuildFile; fileRef = CDD53B1ECBB44FF5AE9995E2 /* root_window.cc */; };
+		9AFB08F5EE184B72BA166DAA /* drm_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C2AA8921247669634358F /* drm_test.cc */; };
+		AD5710E92A8C4D60AFDED7F3 /* client_handler.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1C169B21FD1E4251900B736E /* client_handler.cc */; };
+		B07F4F844CBC4E99B33A534B /* window_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = C0FAD5FE9D014BF38E7C8304 /* window_test.cc */; };
+		B257F3EC2DB4401280D81266 /* osr_renderer.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBBA2A0856DA497098E276A7 /* osr_renderer.cc */; };
+		BB89ED7854814758B1541D38 /* window_test_runner_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F6133191A1429B8953088A /* window_test_runner_mac.mm */; };
+		BE5B3BCF79AB4439A7EEBFDD /* root_window_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33DA9704B8ED46A8B9DA4E68 /* root_window_mac.mm */; };
+		C173503E369D4475AD6006DC /* urlrequest_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 99A5B72D41C243FDB25AA2A8 /* urlrequest_test.cc */; };
+		CE6C200D2586490E84C7F74F /* binding_test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 64B5FC8BB4F54F9BBEEEE1BB /* binding_test.cc */; };
+		D33EEF4453CA442F99C667EA /* client_app_delegates_renderer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8DFCEC1A5A07494CABAFFB26 /* client_app_delegates_renderer.cc */; };
+		D8CF9E4B8619403DA88DB367 /* process_helper_mac.cc in Sources */ = {isa = PBXBuildFile; fileRef = 26045673786B4F689E81C8A4 /* process_helper_mac.cc */; };
+		DA6B2B014F104BD9A37E15C4 /* geometry_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = D2994001CC4E48728F0DAF67 /* geometry_util.cc */; };
+		DDEA93EFEC8A41289EADFA18 /* cefclient_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3DBBBA8CA47749E5402A5 /* cefclient_mac.mm */; };
+		E1E26F9C65854394A241596A /* main_message_loop_std.cc in Sources */ = {isa = PBXBuildFile; fileRef = FE58AAC9C42E46EBA3F019DB /* main_message_loop_std.cc */; };
+		E4E016A167544EAD9AA7446F /* client_app_delegates_browser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9E1761B8543A4D79AD38151B /* client_app_delegates_browser.cc */; };
+		E66A0196318540E3967F943F /* root_window_manager.cc in Sources */ = {isa = PBXBuildFile; fileRef = B7C01C8AAA3C404A888CA9BC /* root_window_manager.cc */; };
+		E756CA929A534B8FAF05EC19 /* browser_window_osr_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = BADB1AC4625347BAA2D58899 /* browser_window_osr_mac.mm */; };
+		E937831E44ED452B9CF0B40C /* client_app_other.cc in Sources */ = {isa = PBXBuildFile; fileRef = DE4414BD8A5B4F9F860839E2 /* client_app_other.cc */; };
+		EB428C6E1E6743DDAE0975D0 /* text_input_client_osr_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4DBBF06B58C4F6F980FABA5 /* text_input_client_osr_mac.mm */; };
+		F030ACE66D9E45799CC66F68 /* image_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6227E369BF3B4E53BF957144 /* image_cache.cc */; };
+		F0C1B21665894AD09907C710 /* client_app_browser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AA8EF305C445BBCB2B527 /* client_app_browser.cc */; };
+		F14792640BBE4965A1BF8D91 /* client_app_other.cc in Sources */ = {isa = PBXBuildFile; fileRef = 60475E5E760F4377B70C2B60 /* client_app_other.cc */; };
+		F2F1E37B3EA14509BFF188B4 /* client_app_delegates_common.cc in Sources */ = {isa = PBXBuildFile; fileRef = C510B445167E4709A8084842 /* client_app_delegates_common.cc */; };
+		F9E3E0A1A7FB436FACAF171F /* main_context_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9658EB9F0F514C8DA7E73E45 /* main_context_impl.cc */; };
+		F9E60321804D49678D0BDD72 /* temp_window_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = D17F2FEBB332464FB39940AC /* temp_window_mac.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA632C9E4EEB4B77A8E8A200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB702E6FF8054717829CBD94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0CEF19213349F4A642A3F6;
+			remoteInfo = cefclient_Helper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D560993ECF4F3A944CCC82 /* localstorage.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = localstorage.html; path = tests/cefclient/resources/localstorage.html; sourceTree = SOURCE_ROOT; };
+		01FEAB96765A4778B80A6475 /* dialogs.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = dialogs.html; path = tests/cefclient/resources/dialogs.html; sourceTree = SOURCE_ROOT; };
+		034A7E5ED538419696474AE6 /* client_app_other.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_app_other.h; path = tests/shared/common/client_app_other.h; sourceTree = SOURCE_ROOT; };
+		066C9F995FA24E06BB05156F /* scheme_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scheme_test.cc; path = tests/cefclient/browser/scheme_test.cc; sourceTree = SOURCE_ROOT; };
+		09E0859A8F9C439F838D19A4 /* urlrequest_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = urlrequest_test.h; path = tests/cefclient/browser/urlrequest_test.h; sourceTree = SOURCE_ROOT; };
+		0ADA95AD8BC8426F9EC9B86B /* client_app.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app.cc; path = tests/shared/common/client_app.cc; sourceTree = SOURCE_ROOT; };
+		0C9AA8EF305C445BBCB2B527 /* client_app_browser.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app_browser.cc; path = tests/shared/browser/client_app_browser.cc; sourceTree = SOURCE_ROOT; };
+		0E6A20D787EB4079BFF83FB2 /* dialog_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dialog_test.cc; path = tests/cefclient/browser/dialog_test.cc; sourceTree = SOURCE_ROOT; };
+		0F649312C4724E4D89C198EF /* client_app_renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_app_renderer.h; path = tests/shared/renderer/client_app_renderer.h; sourceTree = SOURCE_ROOT; };
+		11EBCBC99A9247F9868AD48F /* resource_util_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = resource_util_mac.mm; path = tests/shared/browser/resource_util_mac.mm; sourceTree = SOURCE_ROOT; };
+		13BDC111AA9C4172999A1EA3 /* urlrequest.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = urlrequest.html; path = tests/cefclient/resources/urlrequest.html; sourceTree = SOURCE_ROOT; };
+		1804A8CDC1FE4EF49D0B9032 /* root_window_mac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = root_window_mac.h; path = tests/cefclient/browser/root_window_mac.h; sourceTree = SOURCE_ROOT; };
+		18890E888A434F5788BD966C /* extension_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = extension_util.h; path = tests/shared/browser/extension_util.h; sourceTree = SOURCE_ROOT; };
+		1953EFB485F442D0AF2D10A5 /* osr_renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osr_renderer.h; path = tests/cefclient/browser/osr_renderer.h; sourceTree = SOURCE_ROOT; };
+		1C169B21FD1E4251900B736E /* client_handler.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_handler.cc; path = tests/cefclient/browser/client_handler.cc; sourceTree = SOURCE_ROOT; };
+		1DEA8643EDCF45FF821E5049 /* root_window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = root_window.h; path = tests/cefclient/browser/root_window.h; sourceTree = SOURCE_ROOT; };
+		1EE61CD7E6074377A4D792D7 /* main_message_loop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = main_message_loop.h; path = tests/shared/browser/main_message_loop.h; sourceTree = SOURCE_ROOT; };
+		2058A6F852514FF699F88654 /* osr_accessibility_node.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osr_accessibility_node.h; path = tests/cefclient/browser/osr_accessibility_node.h; sourceTree = SOURCE_ROOT; };
+		229A6E437C5C4840A98376B7 /* cefclient Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "cefclient Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2365BF3FE5144810B9721430 /* client_app_other.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_app_other.h; path = tests/shared/common/client_app_other.h; sourceTree = SOURCE_ROOT; };
+		2416ED4CD51340E0BE1F5002 /* performance_test_setup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = performance_test_setup.h; path = tests/cefclient/renderer/performance_test_setup.h; sourceTree = SOURCE_ROOT; };
+		247EB9ACD4FD471CB02D71FD /* draggable.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = draggable.html; path = tests/cefclient/resources/draggable.html; sourceTree = SOURCE_ROOT; };
+		2597EFE35E4D4F568D5ED089 /* scheme_test_common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scheme_test_common.cc; path = tests/cefclient/common/scheme_test_common.cc; sourceTree = SOURCE_ROOT; };
+		26045673786B4F689E81C8A4 /* process_helper_mac.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = process_helper_mac.cc; path = tests/shared/process_helper_mac.cc; sourceTree = SOURCE_ROOT; };
+		29E2C7DE321647E3AC9F246E /* resource_util_posix.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resource_util_posix.cc; path = tests/shared/browser/resource_util_posix.cc; sourceTree = SOURCE_ROOT; };
+		2A3A5F3907B34F46B3762991 /* popup.js */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = popup.js; path = tests/cefclient/resources/extensions/set_page_color/popup.js; sourceTree = SOURCE_ROOT; };
+		2B609A1D04D9441BB6945976 /* window_test_runner_mac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = window_test_runner_mac.h; path = tests/cefclient/browser/window_test_runner_mac.h; sourceTree = SOURCE_ROOT; };
+		2E6E4A72A9B1420A9EAA1EFC /* websocket.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = websocket.html; path = tests/cefclient/resources/websocket.html; sourceTree = SOURCE_ROOT; };
+		31A004FE24DC4888B99798A4 /* pdf.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pdf.html; path = tests/shared/resources/pdf.html; sourceTree = SOURCE_ROOT; };
+		33DA9704B8ED46A8B9DA4E68 /* root_window_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = root_window_mac.mm; path = tests/cefclient/browser/root_window_mac.mm; sourceTree = SOURCE_ROOT; };
+		342D1BDDBAFD417DA934321A /* client_handler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_handler.h; path = tests/cefclient/browser/client_handler.h; sourceTree = SOURCE_ROOT; };
+		3943CF9B4B0543B1A8009C7C /* main_message_loop.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main_message_loop.cc; path = tests/shared/browser/main_message_loop.cc; sourceTree = SOURCE_ROOT; };
+		39A14AC3B694476ABF7D6537 /* temp_window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = temp_window.h; path = tests/cefclient/browser/temp_window.h; sourceTree = SOURCE_ROOT; };
+		3A7411D2EE7A402A9D323337 /* menu_icon.1x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = menu_icon.1x.png; path = tests/cefclient/resources/menu_icon.1x.png; sourceTree = SOURCE_ROOT; };
+		3B4CE3EFE69F47E1BC528ECA /* resource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = resource.h; path = tests/cefclient/browser/resource.h; sourceTree = SOURCE_ROOT; };
+		4011CEC302DF4EAE99F1A488 /* cefclient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = cefclient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40590706052749FF86D97CC0 /* client_switches.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_switches.h; path = tests/shared/common/client_switches.h; sourceTree = SOURCE_ROOT; };
+		406AA32128224FC48550F7C8 /* client_handler_osr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_handler_osr.h; path = tests/cefclient/browser/client_handler_osr.h; sourceTree = SOURCE_ROOT; };
+		417523B426B244DE98405485 /* test_runner.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_runner.cc; path = tests/cefclient/browser/test_runner.cc; sourceTree = SOURCE_ROOT; };
+		49F5B99D5A814DDBA21D61E0 /* performance_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = performance_test.h; path = tests/cefclient/renderer/performance_test.h; sourceTree = SOURCE_ROOT; };
+		4BC6E2D8E30C4EE6A38A21FF /* browser_window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = browser_window.h; path = tests/cefclient/browser/browser_window.h; sourceTree = SOURCE_ROOT; };
+		4BF3DBBBA8CA47749E5402A5 /* cefclient_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cefclient_mac.mm; path = tests/cefclient/cefclient_mac.mm; sourceTree = SOURCE_ROOT; };
+		502F69B623B14B65A2D130C4 /* resource_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = resource_util.h; path = tests/shared/browser/resource_util.h; sourceTree = SOURCE_ROOT; };
+		554DC9BDEEAA4303ABC95233 /* response_filter.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = response_filter.html; path = tests/cefclient/resources/response_filter.html; sourceTree = SOURCE_ROOT; };
+		5B9C2AA8921247669634358F /* drm_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = drm_test.cc; path = tests/cefclient/browser/drm_test.cc; sourceTree = SOURCE_ROOT; };
+		5B9D416F5F9D448D9F066DBF /* osr_accessibility_node.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osr_accessibility_node.cc; path = tests/cefclient/browser/osr_accessibility_node.cc; sourceTree = SOURCE_ROOT; };
+		5BFA97195E074568B24183AB /* main_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main_context.cc; path = tests/cefclient/browser/main_context.cc; sourceTree = SOURCE_ROOT; };
+		5CE05AE2A4D444CD8E2D466C /* client_browser.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_browser.cc; path = tests/cefclient/browser/client_browser.cc; sourceTree = SOURCE_ROOT; };
+		5F3F117D936C48768004E678 /* xmlhttprequest.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = xmlhttprequest.html; path = tests/cefclient/resources/xmlhttprequest.html; sourceTree = SOURCE_ROOT; };
+		60475E5E760F4377B70C2B60 /* client_app_other.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app_other.cc; path = tests/shared/common/client_app_other.cc; sourceTree = SOURCE_ROOT; };
+		61CA043955B74061B8A92B35 /* binding.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = binding.html; path = tests/cefclient/resources/binding.html; sourceTree = SOURCE_ROOT; };
+		6227E369BF3B4E53BF957144 /* image_cache.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = image_cache.cc; path = tests/cefclient/browser/image_cache.cc; sourceTree = SOURCE_ROOT; };
+		6300E4520B274A8EADE04546 /* osr_test.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = osr_test.html; path = tests/shared/resources/osr_test.html; sourceTree = SOURCE_ROOT; };
+		6306502EC9AC4AEA84D25863 /* performance.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = performance.html; path = tests/cefclient/resources/performance.html; sourceTree = SOURCE_ROOT; };
+		640DCD9F8EFB4B7781A5015C /* client_switches.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_switches.cc; path = tests/shared/common/client_switches.cc; sourceTree = SOURCE_ROOT; };
+		64B5FC8BB4F54F9BBEEEE1BB /* binding_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = binding_test.cc; path = tests/cefclient/browser/binding_test.cc; sourceTree = SOURCE_ROOT; };
+		69F14500F8D2480E8838BBBD /* response_filter_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = response_filter_test.cc; path = tests/cefclient/browser/response_filter_test.cc; sourceTree = SOURCE_ROOT; };
+		69F6133191A1429B8953088A /* window_test_runner_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = window_test_runner_mac.mm; path = tests/cefclient/browser/window_test_runner_mac.mm; sourceTree = SOURCE_ROOT; };
+		6CCBA4CD2ECD4A5F9BBAF1B4 /* cefclient.icns */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = cefclient.icns; path = tests/cefclient/resources/mac/cefclient.icns; sourceTree = SOURCE_ROOT; };
+		6ECBBEA9C575426F8D812959 /* main_context_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = main_context_impl.h; path = tests/cefclient/browser/main_context_impl.h; sourceTree = SOURCE_ROOT; };
+		6EF4D2EF4875496A8568C1D7 /* binding_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = binding_test.h; path = tests/cefclient/browser/binding_test.h; sourceTree = SOURCE_ROOT; };
+		70535FCAA87A4204ACBC5591 /* README.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = README.md; path = tests/cefclient/resources/extensions/set_page_color/README.md; sourceTree = SOURCE_ROOT; };
+		70EB54EF7C3C407591F18B62 /* main_message_loop_external_pump.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = main_message_loop_external_pump.h; path = tests/shared/browser/main_message_loop_external_pump.h; sourceTree = SOURCE_ROOT; };
+		750F0ABE87914072AFFEC404 /* osr_dragdrop_events.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osr_dragdrop_events.h; path = tests/cefclient/browser/osr_dragdrop_events.h; sourceTree = SOURCE_ROOT; };
+		754C4FA4B84943CB8E6FCE78 /* browser_window_std_mac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = browser_window_std_mac.h; path = tests/cefclient/browser/browser_window_std_mac.h; sourceTree = SOURCE_ROOT; };
+		75DFA512D47942A3AB8D103D /* client_handler_osr.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_handler_osr.cc; path = tests/cefclient/browser/client_handler_osr.cc; sourceTree = SOURCE_ROOT; };
+		7784A58644494924AFF7BFFD /* osr_accessibility_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osr_accessibility_helper.h; path = tests/cefclient/browser/osr_accessibility_helper.h; sourceTree = SOURCE_ROOT; };
+		77F730C048C24FE88666D218 /* client_renderer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_renderer.cc; path = tests/cefclient/renderer/client_renderer.cc; sourceTree = SOURCE_ROOT; };
+		7A9B879E13AD48CF9A23CBBB /* server.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = server.html; path = tests/cefclient/resources/server.html; sourceTree = SOURCE_ROOT; };
+		7AE0C6113BAC411A8D13BED1 /* preferences_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = preferences_test.h; path = tests/cefclient/browser/preferences_test.h; sourceTree = SOURCE_ROOT; };
+		7BA84B30801847FFAE3A151B /* osr_accessibility_helper.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osr_accessibility_helper.cc; path = tests/cefclient/browser/osr_accessibility_helper.cc; sourceTree = SOURCE_ROOT; };
+		7C2F34B099FB448FABF040C3 /* performance_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = performance_test.cc; path = tests/cefclient/renderer/performance_test.cc; sourceTree = SOURCE_ROOT; };
+		7F42D80AF7D541B39E0E20C8 /* root_window_manager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = root_window_manager.h; path = tests/cefclient/browser/root_window_manager.h; sourceTree = SOURCE_ROOT; };
+		80083528FF4947008D6F7DFA /* other_tests.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = other_tests.html; path = tests/cefclient/resources/other_tests.html; sourceTree = SOURCE_ROOT; };
+		85B9290FA1C6458BA0CD6164 /* image_cache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = image_cache.h; path = tests/cefclient/browser/image_cache.h; sourceTree = SOURCE_ROOT; };
+		870F384B185D442BB7FEA0AF /* menu_icon.2x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = menu_icon.2x.png; path = tests/cefclient/resources/menu_icon.2x.png; sourceTree = SOURCE_ROOT; };
+		87F8F548006C438A9C6A5539 /* client_switches.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_switches.h; path = tests/shared/common/client_switches.h; sourceTree = SOURCE_ROOT; };
+		887735828CDC4CA18D3B6BB5 /* popup.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = popup.html; path = tests/cefclient/resources/extensions/set_page_color/popup.html; sourceTree = SOURCE_ROOT; };
+		897C2763187B4BBBBAFE21C1 /* file_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = file_util.h; path = tests/shared/browser/file_util.h; sourceTree = SOURCE_ROOT; };
+		8DFCEC1A5A07494CABAFFB26 /* client_app_delegates_renderer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app_delegates_renderer.cc; path = tests/cefclient/renderer/client_app_delegates_renderer.cc; sourceTree = SOURCE_ROOT; };
+		8E71172F3A164B2BA331D14F /* client_app_renderer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app_renderer.cc; path = tests/shared/renderer/client_app_renderer.cc; sourceTree = SOURCE_ROOT; };
+		8FDBA2579A8D40409FBAD9EC /* response_filter_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = response_filter_test.h; path = tests/cefclient/browser/response_filter_test.h; sourceTree = SOURCE_ROOT; };
+		903DB20D793140D497AF06D4 /* logo.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = logo.png; path = tests/cefclient/resources/logo.png; sourceTree = SOURCE_ROOT; };
+		9061CA32B1BD46E4816EA081 /* client_switches.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_switches.cc; path = tests/shared/common/client_switches.cc; sourceTree = SOURCE_ROOT; };
+		91E80226E1294E68A1B2EC0C /* browser_window_osr_mac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = browser_window_osr_mac.h; path = tests/cefclient/browser/browser_window_osr_mac.h; sourceTree = SOURCE_ROOT; };
+		9271287845184597AB5A95D5 /* client_app.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_app.h; path = tests/shared/common/client_app.h; sourceTree = SOURCE_ROOT; };
+		94C56EBC02B4413E88BABA31 /* client_handler_std.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_handler_std.cc; path = tests/cefclient/browser/client_handler_std.cc; sourceTree = SOURCE_ROOT; };
+		94F99A0A5273461D8805A038 /* manifest.json */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = manifest.json; path = tests/cefclient/resources/extensions/set_page_color/manifest.json; sourceTree = SOURCE_ROOT; };
+		9610A709EA29446EAD62238F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = tests/cefclient/resources/mac/English.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		9658EB9F0F514C8DA7E73E45 /* main_context_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main_context_impl.cc; path = tests/cefclient/browser/main_context_impl.cc; sourceTree = SOURCE_ROOT; };
+		99A5B72D41C243FDB25AA2A8 /* urlrequest_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = urlrequest_test.cc; path = tests/cefclient/browser/urlrequest_test.cc; sourceTree = SOURCE_ROOT; };
+		99FE3E2F18354D2E9D8800B0 /* browser_window_std_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = browser_window_std_mac.mm; path = tests/cefclient/browser/browser_window_std_mac.mm; sourceTree = SOURCE_ROOT; };
+		9B11F980D9E044E8A4D1C110 /* window_test_runner.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = window_test_runner.h; path = tests/cefclient/browser/window_test_runner.h; sourceTree = SOURCE_ROOT; };
+		9DD709D222E24526BD18026E /* transparency.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = transparency.html; path = tests/cefclient/resources/transparency.html; sourceTree = SOURCE_ROOT; };
+		9E1761B8543A4D79AD38151B /* client_app_delegates_browser.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app_delegates_browser.cc; path = tests/cefclient/browser/client_app_delegates_browser.cc; sourceTree = SOURCE_ROOT; };
+		9E861481C272453DBAF914E4 /* main_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = main_context.h; path = tests/cefclient/browser/main_context.h; sourceTree = SOURCE_ROOT; };
+		A01A69E50C8D4D7C87399E4D /* window_icon.1x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = window_icon.1x.png; path = tests/shared/resources/window_icon.1x.png; sourceTree = SOURCE_ROOT; };
+		A20BBE388A734B1C8E9C182F /* browser_window.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = browser_window.cc; path = tests/cefclient/browser/browser_window.cc; sourceTree = SOURCE_ROOT; };
+		A2C547A0D2E4471D9DA49524 /* performance_test_tests.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = performance_test_tests.cc; path = tests/cefclient/renderer/performance_test_tests.cc; sourceTree = SOURCE_ROOT; };
+		A656679D34484524BFFBC342 /* icon.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = icon.png; path = tests/cefclient/resources/extensions/set_page_color/icon.png; sourceTree = SOURCE_ROOT; };
+		AAF0508C7139474D934F47EA /* main_message_loop_std.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = main_message_loop_std.h; path = tests/shared/browser/main_message_loop_std.h; sourceTree = SOURCE_ROOT; };
+		AB906D6C2DE542D69DA6D56C /* scheme_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scheme_test.h; path = tests/cefclient/browser/scheme_test.h; sourceTree = SOURCE_ROOT; };
+		AC0A1971B6F64872927E6EB0 /* client_renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_renderer.h; path = tests/cefclient/renderer/client_renderer.h; sourceTree = SOURCE_ROOT; };
+		AD7F6BB06D334BDCA4D8F698 /* main_message_loop_external_pump_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = main_message_loop_external_pump_mac.mm; path = tests/shared/browser/main_message_loop_external_pump_mac.mm; sourceTree = SOURCE_ROOT; };
+		AF4458580AAF473D8399DD5E /* preferences_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = preferences_test.cc; path = tests/cefclient/browser/preferences_test.cc; sourceTree = SOURCE_ROOT; };
+		B5054CCA36B14A0F82C82B41 /* bytes_write_handler.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytes_write_handler.cc; path = tests/cefclient/browser/bytes_write_handler.cc; sourceTree = SOURCE_ROOT; };
+		B58CCEB527FE4A2DA9B7178D /* window_icon.2x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = window_icon.2x.png; path = tests/shared/resources/window_icon.2x.png; sourceTree = SOURCE_ROOT; };
+		B7C01C8AAA3C404A888CA9BC /* root_window_manager.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = root_window_manager.cc; path = tests/cefclient/browser/root_window_manager.cc; sourceTree = SOURCE_ROOT; };
+		BADB1AC4625347BAA2D58899 /* browser_window_osr_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = browser_window_osr_mac.mm; path = tests/cefclient/browser/browser_window_osr_mac.mm; sourceTree = SOURCE_ROOT; };
+		BBBA2A0856DA497098E276A7 /* osr_renderer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osr_renderer.cc; path = tests/cefclient/browser/osr_renderer.cc; sourceTree = SOURCE_ROOT; };
+		BCD6E760DF4B4443A6733650 /* root_window_create.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = root_window_create.cc; path = tests/cefclient/browser/root_window_create.cc; sourceTree = SOURCE_ROOT; };
+		BEA142ECCDFE4B0E98E52F94 /* main_message_loop_external_pump.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main_message_loop_external_pump.cc; path = tests/shared/browser/main_message_loop_external_pump.cc; sourceTree = SOURCE_ROOT; };
+		C0CE1FF91F664E2190676F69 /* server_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = server_test.cc; path = tests/cefclient/browser/server_test.cc; sourceTree = SOURCE_ROOT; };
+		C0FAD5FE9D014BF38E7C8304 /* window_test.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = window_test.cc; path = tests/cefclient/browser/window_test.cc; sourceTree = SOURCE_ROOT; };
+		C1CD7E39C8374F75AB9B87C3 /* geometry_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geometry_util.h; path = tests/shared/browser/geometry_util.h; sourceTree = SOURCE_ROOT; };
+		C22506CE248A44B3B9FF7427 /* temp_window_mac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = temp_window_mac.h; path = tests/cefclient/browser/temp_window_mac.h; sourceTree = SOURCE_ROOT; };
+		C385220725B744C19D2D6BF2 /* bytes_write_handler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bytes_write_handler.h; path = tests/cefclient/browser/bytes_write_handler.h; sourceTree = SOURCE_ROOT; };
+		C510B445167E4709A8084842 /* client_app_delegates_common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app_delegates_common.cc; path = tests/cefclient/common/client_app_delegates_common.cc; sourceTree = SOURCE_ROOT; };
+		C5BF54643D3F4B68815885BF /* performance2.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = performance2.html; path = tests/cefclient/resources/performance2.html; sourceTree = SOURCE_ROOT; };
+		C5C326189D534A51A9D6F94A /* extension_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_util.cc; path = tests/shared/browser/extension_util.cc; sourceTree = SOURCE_ROOT; };
+		C6FD5ABBE889407E8765A6AD /* InfoPlist.strings */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = InfoPlist.strings; path = tests/cefclient/resources/mac/English.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		CDD53B1ECBB44FF5AE9995E2 /* root_window.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = root_window.cc; path = tests/cefclient/browser/root_window.cc; sourceTree = SOURCE_ROOT; };
+		CEE842FA612449D89ACC8B87 /* server_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = server_test.h; path = tests/cefclient/browser/server_test.h; sourceTree = SOURCE_ROOT; };
+		CF1245489D004A7487744598 /* client_browser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_browser.h; path = tests/cefclient/browser/client_browser.h; sourceTree = SOURCE_ROOT; };
+		D0635C078FAD45BA886D6B22 /* client_handler_std.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_handler_std.h; path = tests/cefclient/browser/client_handler_std.h; sourceTree = SOURCE_ROOT; };
+		D17F2FEBB332464FB39940AC /* temp_window_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = temp_window_mac.mm; path = tests/cefclient/browser/temp_window_mac.mm; sourceTree = SOURCE_ROOT; };
+		D2994001CC4E48728F0DAF67 /* geometry_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = geometry_util.cc; path = tests/shared/browser/geometry_util.cc; sourceTree = SOURCE_ROOT; };
+		D36113AEFF8645A18AF0F59E /* window_test_runner.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = window_test_runner.cc; path = tests/cefclient/browser/window_test_runner.cc; sourceTree = SOURCE_ROOT; };
+		D4F08727B23B4DC490C26B1B /* scheme_test_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scheme_test_common.h; path = tests/cefclient/common/scheme_test_common.h; sourceTree = SOURCE_ROOT; };
+		D5A738652A9143E9AF4BF2DE /* test_runner.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = test_runner.h; path = tests/cefclient/browser/test_runner.h; sourceTree = SOURCE_ROOT; };
+		DC89E9D7EEAE4CB5B283B84A /* drm_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = drm_test.h; path = tests/cefclient/browser/drm_test.h; sourceTree = SOURCE_ROOT; };
+		DD5EB70DFEDC41F7A89322EF /* main_context_impl_posix.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main_context_impl_posix.cc; path = tests/cefclient/browser/main_context_impl_posix.cc; sourceTree = SOURCE_ROOT; };
+		DE4414BD8A5B4F9F860839E2 /* client_app_other.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app_other.cc; path = tests/shared/common/client_app_other.cc; sourceTree = SOURCE_ROOT; };
+		E047450E572248BF97ED97E8 /* client_app_browser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_app_browser.h; path = tests/shared/browser/client_app_browser.h; sourceTree = SOURCE_ROOT; };
+		E0A9A4D32196FFFF00FF0586 /* cefclient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cefclient.entitlements; sourceTree = "<group>"; };
+		E0A9A4D42197000B00FF0586 /* cefclient Helper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "cefclient Helper.entitlements"; sourceTree = "<group>"; };
+		E113C51199B34E338ECC70B7 /* client_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_types.h; path = tests/cefclient/browser/client_types.h; sourceTree = SOURCE_ROOT; };
+		E1EC7621BD7E4F1484FC854F /* client_app.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app.cc; path = tests/shared/common/client_app.cc; sourceTree = SOURCE_ROOT; };
+		E38A7A486B704984A4D71E43 /* drm.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = drm.html; path = tests/cefclient/resources/drm.html; sourceTree = SOURCE_ROOT; };
+		E46BAE8A1E484E019276DE34 /* client_app.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = client_app.h; path = tests/shared/common/client_app.h; sourceTree = SOURCE_ROOT; };
+		E4DBBF06B58C4F6F980FABA5 /* text_input_client_osr_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = text_input_client_osr_mac.mm; path = tests/cefclient/browser/text_input_client_osr_mac.mm; sourceTree = SOURCE_ROOT; };
+		E6D932E6E0404E9A942ADB53 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tests/cefclient/resources/mac/Info.plist; sourceTree = SOURCE_ROOT; };
+		EE9D72C28DE74C08BDCB76EA /* preferences.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = preferences.html; path = tests/cefclient/resources/preferences.html; sourceTree = SOURCE_ROOT; };
+		EF71D28F480340B69DAC00F2 /* client_app_delegates_common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = client_app_delegates_common.cc; path = tests/cefclient/common/client_app_delegates_common.cc; sourceTree = SOURCE_ROOT; };
+		EFD3D8DD60D74796A2C976A2 /* pdf.pdf */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pdf.pdf; path = tests/shared/resources/pdf.pdf; sourceTree = SOURCE_ROOT; };
+		F097EFB5951C416FAF006CC5 /* file_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = file_util.cc; path = tests/shared/browser/file_util.cc; sourceTree = SOURCE_ROOT; };
+		F27D69D1B35C4890898B7B46 /* dialog_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dialog_test.h; path = tests/cefclient/browser/dialog_test.h; sourceTree = SOURCE_ROOT; };
+		F47AD22F3ED9454A8435934F /* scheme_test_common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scheme_test_common.cc; path = tests/cefclient/common/scheme_test_common.cc; sourceTree = SOURCE_ROOT; };
+		F4C1874C63E44812B1E03437 /* text_input_client_osr_mac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = text_input_client_osr_mac.h; path = tests/cefclient/browser/text_input_client_osr_mac.h; sourceTree = SOURCE_ROOT; };
+		FA55E877C06D4CC3ADFCAE7A /* window.html */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = window.html; path = tests/cefclient/resources/window.html; sourceTree = SOURCE_ROOT; };
+		FA71B94136114F94A3186FF8 /* osr_accessibility_node_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = osr_accessibility_node_mac.mm; path = tests/cefclient/browser/osr_accessibility_node_mac.mm; sourceTree = SOURCE_ROOT; };
+		FA7E736F30804F6A95C73D5B /* scheme_test_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scheme_test_common.h; path = tests/cefclient/common/scheme_test_common.h; sourceTree = SOURCE_ROOT; };
+		FDAAA2408BA048C58862E088 /* window_test.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = window_test.h; path = tests/cefclient/browser/window_test.h; sourceTree = SOURCE_ROOT; };
+		FE58AAC9C42E46EBA3F019DB /* main_message_loop_std.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main_message_loop_std.cc; path = tests/shared/browser/main_message_loop_std.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01C2D76FED2A4DFD979D42C2 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFF205E2D0A34B8488BEF640 /* extensions */,
+				BF74BA7FA74441A2A211BCB1 /* mac */,
+				61CA043955B74061B8A92B35 /* binding.html */,
+				01FEAB96765A4778B80A6475 /* dialogs.html */,
+				247EB9ACD4FD471CB02D71FD /* draggable.html */,
+				E38A7A486B704984A4D71E43 /* drm.html */,
+				00D560993ECF4F3A944CCC82 /* localstorage.html */,
+				903DB20D793140D497AF06D4 /* logo.png */,
+				3A7411D2EE7A402A9D323337 /* menu_icon.1x.png */,
+				870F384B185D442BB7FEA0AF /* menu_icon.2x.png */,
+				80083528FF4947008D6F7DFA /* other_tests.html */,
+				6306502EC9AC4AEA84D25863 /* performance.html */,
+				C5BF54643D3F4B68815885BF /* performance2.html */,
+				EE9D72C28DE74C08BDCB76EA /* preferences.html */,
+				554DC9BDEEAA4303ABC95233 /* response_filter.html */,
+				7A9B879E13AD48CF9A23CBBB /* server.html */,
+				9DD709D222E24526BD18026E /* transparency.html */,
+				13BDC111AA9C4172999A1EA3 /* urlrequest.html */,
+				2E6E4A72A9B1420A9EAA1EFC /* websocket.html */,
+				FA55E877C06D4CC3ADFCAE7A /* window.html */,
+				5F3F117D936C48768004E678 /* xmlhttprequest.html */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		0D943A54BF8E485982BAFF13 = {
+			isa = PBXGroup;
+			children = (
+				F119346E237746209D5EB0D1 /* cefclient */,
+				7B552D27E081439CA9261A94 /* cefclient_Helper */,
+				54C5F94AC7AF47BC9E177C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11E2B6038B574D14B4BC4EE6 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				E1EC7621BD7E4F1484FC854F /* client_app.cc */,
+				E46BAE8A1E484E019276DE34 /* client_app.h */,
+				60475E5E760F4377B70C2B60 /* client_app_other.cc */,
+				2365BF3FE5144810B9721430 /* client_app_other.h */,
+				9061CA32B1BD46E4816EA081 /* client_switches.cc */,
+				87F8F548006C438A9C6A5539 /* client_switches.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		19D84D92162848228E8AC764 /* renderer */ = {
+			isa = PBXGroup;
+			children = (
+				8E71172F3A164B2BA331D14F /* client_app_renderer.cc */,
+				0F649312C4724E4D89C198EF /* client_app_renderer.h */,
+			);
+			name = renderer;
+			sourceTree = "<group>";
+		};
+		25BCC1D46B144EB4A43D3E29 /* browser */ = {
+			isa = PBXGroup;
+			children = (
+				64B5FC8BB4F54F9BBEEEE1BB /* binding_test.cc */,
+				6EF4D2EF4875496A8568C1D7 /* binding_test.h */,
+				A20BBE388A734B1C8E9C182F /* browser_window.cc */,
+				4BC6E2D8E30C4EE6A38A21FF /* browser_window.h */,
+				91E80226E1294E68A1B2EC0C /* browser_window_osr_mac.h */,
+				BADB1AC4625347BAA2D58899 /* browser_window_osr_mac.mm */,
+				754C4FA4B84943CB8E6FCE78 /* browser_window_std_mac.h */,
+				99FE3E2F18354D2E9D8800B0 /* browser_window_std_mac.mm */,
+				B5054CCA36B14A0F82C82B41 /* bytes_write_handler.cc */,
+				C385220725B744C19D2D6BF2 /* bytes_write_handler.h */,
+				9E1761B8543A4D79AD38151B /* client_app_delegates_browser.cc */,
+				5CE05AE2A4D444CD8E2D466C /* client_browser.cc */,
+				CF1245489D004A7487744598 /* client_browser.h */,
+				1C169B21FD1E4251900B736E /* client_handler.cc */,
+				342D1BDDBAFD417DA934321A /* client_handler.h */,
+				75DFA512D47942A3AB8D103D /* client_handler_osr.cc */,
+				406AA32128224FC48550F7C8 /* client_handler_osr.h */,
+				94C56EBC02B4413E88BABA31 /* client_handler_std.cc */,
+				D0635C078FAD45BA886D6B22 /* client_handler_std.h */,
+				E113C51199B34E338ECC70B7 /* client_types.h */,
+				0E6A20D787EB4079BFF83FB2 /* dialog_test.cc */,
+				F27D69D1B35C4890898B7B46 /* dialog_test.h */,
+				5B9C2AA8921247669634358F /* drm_test.cc */,
+				DC89E9D7EEAE4CB5B283B84A /* drm_test.h */,
+				6227E369BF3B4E53BF957144 /* image_cache.cc */,
+				85B9290FA1C6458BA0CD6164 /* image_cache.h */,
+				5BFA97195E074568B24183AB /* main_context.cc */,
+				9E861481C272453DBAF914E4 /* main_context.h */,
+				9658EB9F0F514C8DA7E73E45 /* main_context_impl.cc */,
+				6ECBBEA9C575426F8D812959 /* main_context_impl.h */,
+				DD5EB70DFEDC41F7A89322EF /* main_context_impl_posix.cc */,
+				7BA84B30801847FFAE3A151B /* osr_accessibility_helper.cc */,
+				7784A58644494924AFF7BFFD /* osr_accessibility_helper.h */,
+				5B9D416F5F9D448D9F066DBF /* osr_accessibility_node.cc */,
+				2058A6F852514FF699F88654 /* osr_accessibility_node.h */,
+				FA71B94136114F94A3186FF8 /* osr_accessibility_node_mac.mm */,
+				750F0ABE87914072AFFEC404 /* osr_dragdrop_events.h */,
+				BBBA2A0856DA497098E276A7 /* osr_renderer.cc */,
+				1953EFB485F442D0AF2D10A5 /* osr_renderer.h */,
+				AF4458580AAF473D8399DD5E /* preferences_test.cc */,
+				7AE0C6113BAC411A8D13BED1 /* preferences_test.h */,
+				3B4CE3EFE69F47E1BC528ECA /* resource.h */,
+				69F14500F8D2480E8838BBBD /* response_filter_test.cc */,
+				8FDBA2579A8D40409FBAD9EC /* response_filter_test.h */,
+				CDD53B1ECBB44FF5AE9995E2 /* root_window.cc */,
+				1DEA8643EDCF45FF821E5049 /* root_window.h */,
+				BCD6E760DF4B4443A6733650 /* root_window_create.cc */,
+				1804A8CDC1FE4EF49D0B9032 /* root_window_mac.h */,
+				33DA9704B8ED46A8B9DA4E68 /* root_window_mac.mm */,
+				B7C01C8AAA3C404A888CA9BC /* root_window_manager.cc */,
+				7F42D80AF7D541B39E0E20C8 /* root_window_manager.h */,
+				066C9F995FA24E06BB05156F /* scheme_test.cc */,
+				AB906D6C2DE542D69DA6D56C /* scheme_test.h */,
+				C0CE1FF91F664E2190676F69 /* server_test.cc */,
+				CEE842FA612449D89ACC8B87 /* server_test.h */,
+				39A14AC3B694476ABF7D6537 /* temp_window.h */,
+				C22506CE248A44B3B9FF7427 /* temp_window_mac.h */,
+				D17F2FEBB332464FB39940AC /* temp_window_mac.mm */,
+				417523B426B244DE98405485 /* test_runner.cc */,
+				D5A738652A9143E9AF4BF2DE /* test_runner.h */,
+				F4C1874C63E44812B1E03437 /* text_input_client_osr_mac.h */,
+				E4DBBF06B58C4F6F980FABA5 /* text_input_client_osr_mac.mm */,
+				99A5B72D41C243FDB25AA2A8 /* urlrequest_test.cc */,
+				09E0859A8F9C439F838D19A4 /* urlrequest_test.h */,
+				C0FAD5FE9D014BF38E7C8304 /* window_test.cc */,
+				FDAAA2408BA048C58862E088 /* window_test.h */,
+				D36113AEFF8645A18AF0F59E /* window_test_runner.cc */,
+				9B11F980D9E044E8A4D1C110 /* window_test_runner.h */,
+				2B609A1D04D9441BB6945976 /* window_test_runner_mac.h */,
+				69F6133191A1429B8953088A /* window_test_runner_mac.mm */,
+			);
+			name = browser;
+			sourceTree = "<group>";
+		};
+		359BE8A8E80844C78150F98D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6300E4520B274A8EADE04546 /* osr_test.html */,
+				31A004FE24DC4888B99798A4 /* pdf.html */,
+				EFD3D8DD60D74796A2C976A2 /* pdf.pdf */,
+				A01A69E50C8D4D7C87399E4D /* window_icon.1x.png */,
+				B58CCEB527FE4A2DA9B7178D /* window_icon.2x.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		368C472CE33A482C997C8664 /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C6FD5ABBE889407E8765A6AD /* InfoPlist.strings */,
+				9610A709EA29446EAD62238F /* MainMenu.xib */,
+			);
+			name = English.lproj;
+			sourceTree = "<group>";
+		};
+		3DB314F369FC441A9C6BFFE4 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				11E2B6038B574D14B4BC4EE6 /* common */,
+				19D84D92162848228E8AC764 /* renderer */,
+				26045673786B4F689E81C8A4 /* process_helper_mac.cc */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		3E1DBCA73EAF469E8A9EFD09 /* set_page_color */ = {
+			isa = PBXGroup;
+			children = (
+				70535FCAA87A4204ACBC5591 /* README.md */,
+				A656679D34484524BFFBC342 /* icon.png */,
+				94F99A0A5273461D8805A038 /* manifest.json */,
+				887735828CDC4CA18D3B6BB5 /* popup.html */,
+				2A3A5F3907B34F46B3762991 /* popup.js */,
+			);
+			name = set_page_color;
+			sourceTree = "<group>";
+		};
+		54C5F94AC7AF47BC9E177C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4011CEC302DF4EAE99F1A488 /* cefclient.app */,
+				229A6E437C5C4840A98376B7 /* cefclient Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D60D0FC4EF44B5B8404F03D /* cefclient */ = {
+			isa = PBXGroup;
+			children = (
+				01C2D76FED2A4DFD979D42C2 /* resources */,
+				25BCC1D46B144EB4A43D3E29 /* browser */,
+				AF68DB60493247379CB58882 /* common */,
+				4BF3DBBBA8CA47749E5402A5 /* cefclient_mac.mm */,
+			);
+			name = cefclient;
+			sourceTree = "<group>";
+		};
+		71A1ED254BBF48798588A7F6 /* cefclient */ = {
+			isa = PBXGroup;
+			children = (
+				AEF18356C55C4A1D96F56461 /* common */,
+				C4FF4F927A064BC48A00A435 /* renderer */,
+			);
+			name = cefclient;
+			sourceTree = "<group>";
+		};
+		7994077DFC824ACB88B09E21 /* browser */ = {
+			isa = PBXGroup;
+			children = (
+				0C9AA8EF305C445BBCB2B527 /* client_app_browser.cc */,
+				E047450E572248BF97ED97E8 /* client_app_browser.h */,
+				C5C326189D534A51A9D6F94A /* extension_util.cc */,
+				18890E888A434F5788BD966C /* extension_util.h */,
+				F097EFB5951C416FAF006CC5 /* file_util.cc */,
+				897C2763187B4BBBBAFE21C1 /* file_util.h */,
+				D2994001CC4E48728F0DAF67 /* geometry_util.cc */,
+				C1CD7E39C8374F75AB9B87C3 /* geometry_util.h */,
+				3943CF9B4B0543B1A8009C7C /* main_message_loop.cc */,
+				1EE61CD7E6074377A4D792D7 /* main_message_loop.h */,
+				BEA142ECCDFE4B0E98E52F94 /* main_message_loop_external_pump.cc */,
+				70EB54EF7C3C407591F18B62 /* main_message_loop_external_pump.h */,
+				AD7F6BB06D334BDCA4D8F698 /* main_message_loop_external_pump_mac.mm */,
+				FE58AAC9C42E46EBA3F019DB /* main_message_loop_std.cc */,
+				AAF0508C7139474D934F47EA /* main_message_loop_std.h */,
+				502F69B623B14B65A2D130C4 /* resource_util.h */,
+				11EBCBC99A9247F9868AD48F /* resource_util_mac.mm */,
+				29E2C7DE321647E3AC9F246E /* resource_util_posix.cc */,
+			);
+			name = browser;
+			sourceTree = "<group>";
+		};
+		7B552D27E081439CA9261A94 /* cefclient_Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E0A9A4D42197000B00FF0586 /* cefclient Helper.entitlements */,
+				71A1ED254BBF48798588A7F6 /* cefclient */,
+				3DB314F369FC441A9C6BFFE4 /* shared */,
+			);
+			name = cefclient_Helper;
+			sourceTree = "<group>";
+		};
+		AEF18356C55C4A1D96F56461 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				EF71D28F480340B69DAC00F2 /* client_app_delegates_common.cc */,
+				F47AD22F3ED9454A8435934F /* scheme_test_common.cc */,
+				FA7E736F30804F6A95C73D5B /* scheme_test_common.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		AF68DB60493247379CB58882 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C510B445167E4709A8084842 /* client_app_delegates_common.cc */,
+				2597EFE35E4D4F568D5ED089 /* scheme_test_common.cc */,
+				D4F08727B23B4DC490C26B1B /* scheme_test_common.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		AFF205E2D0A34B8488BEF640 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E1DBCA73EAF469E8A9EFD09 /* set_page_color */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		BF74BA7FA74441A2A211BCB1 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				368C472CE33A482C997C8664 /* English.lproj */,
+				E6D932E6E0404E9A942ADB53 /* Info.plist */,
+				6CCBA4CD2ECD4A5F9BBAF1B4 /* cefclient.icns */,
+			);
+			name = mac;
+			sourceTree = "<group>";
+		};
+		C4FF4F927A064BC48A00A435 /* renderer */ = {
+			isa = PBXGroup;
+			children = (
+				8DFCEC1A5A07494CABAFFB26 /* client_app_delegates_renderer.cc */,
+				77F730C048C24FE88666D218 /* client_renderer.cc */,
+				AC0A1971B6F64872927E6EB0 /* client_renderer.h */,
+				7C2F34B099FB448FABF040C3 /* performance_test.cc */,
+				49F5B99D5A814DDBA21D61E0 /* performance_test.h */,
+				2416ED4CD51340E0BE1F5002 /* performance_test_setup.h */,
+				A2C547A0D2E4471D9DA49524 /* performance_test_tests.cc */,
+			);
+			name = renderer;
+			sourceTree = "<group>";
+		};
+		CF1DB52CA7CA4E0B9F204B72 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				0ADA95AD8BC8426F9EC9B86B /* client_app.cc */,
+				9271287845184597AB5A95D5 /* client_app.h */,
+				DE4414BD8A5B4F9F860839E2 /* client_app_other.cc */,
+				034A7E5ED538419696474AE6 /* client_app_other.h */,
+				640DCD9F8EFB4B7781A5015C /* client_switches.cc */,
+				40590706052749FF86D97CC0 /* client_switches.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		E02EF434E7BC45A8AD22ABBB /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				359BE8A8E80844C78150F98D /* resources */,
+				7994077DFC824ACB88B09E21 /* browser */,
+				CF1DB52CA7CA4E0B9F204B72 /* common */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		F119346E237746209D5EB0D1 /* cefclient */ = {
+			isa = PBXGroup;
+			children = (
+				E0A9A4D32196FFFF00FF0586 /* cefclient.entitlements */,
+				5D60D0FC4EF44B5B8404F03D /* cefclient */,
+				E02EF434E7BC45A8AD22ABBB /* shared */,
+			);
+			name = cefclient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0CEF19213349F4A642A3F6 /* cefclient_Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3FA17B224248F1A7BCC978 /* Build configuration list for PBXNativeTarget "cefclient_Helper" */;
+			buildPhases = (
+				0B9B1D3069C44DC1A5A05F5E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cefclient_Helper;
+			productName = cefclient_Helper;
+			productReference = 229A6E437C5C4840A98376B7 /* cefclient Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		351868C9738B470698B294D4 /* cefclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AB9B5A8E8A45C0B90D77C1 /* Build configuration list for PBXNativeTarget "cefclient" */;
+			buildPhases = (
+				C2B596E159C64EB083823FDE /* Sources */,
+				E0A9A4D52197080500FF0586 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A0725F97FC4737A396C77B /* PBXTargetDependency */,
+			);
+			name = cefclient;
+			productName = cefclient;
+			productReference = 4011CEC302DF4EAE99F1A488 /* cefclient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB702E6FF8054717829CBD94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					1B0CEF19213349F4A642A3F6 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					351868C9738B470698B294D4 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0EDC0208728A42AF846EC246 /* Build configuration list for PBXProject "cefclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D943A54BF8E485982BAFF13;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351868C9738B470698B294D4 /* cefclient */,
+				1B0CEF19213349F4A642A3F6 /* cefclient_Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0A9A4D52197080500FF0586 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources\n\nmkdir -p ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources/Frameworks\nmkdir -p ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources/extensions\nmkdir -p ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources/extensions/set_page_color\nmkdir -p ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources/English.lproj\n\ncp -n ${BUILT_PRODUCTS_DIR}/../resources/* ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources | true\n\ncp -n -R ${BUILT_PRODUCTS_DIR}/cefclient\\ Helper.app ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks | true\ncp -n -R ${BUILT_PRODUCTS_DIR}/../../../Release/Chromium\\ Embedded\\ Framework.framework ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Frameworks | true\n\ncp -n ${BUILT_PRODUCTS_DIR}/../../shared/resources/* ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources | true\ncp -n ${BUILT_PRODUCTS_DIR}/../resources/extensions/set_page_color/* ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources/extensions/set_page_color | true\ncp -n ${BUILT_PRODUCTS_DIR}/../resources/mac/English.lproj/* ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Resources/English.lproj | true\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B9B1D3069C44DC1A5A05F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1C0D8B8BC3451DAC23B618 /* client_app_delegates_common.cc in Sources */,
+				349C958B37B94E66BA1E3925 /* scheme_test_common.cc in Sources */,
+				D33EEF4453CA442F99C667EA /* client_app_delegates_renderer.cc in Sources */,
+				326FC6A488AA492CA32C0EC6 /* client_renderer.cc in Sources */,
+				7DD55F42B09D425887E13705 /* performance_test.cc in Sources */,
+				88476B424D9C4F60833DFF0D /* performance_test_tests.cc in Sources */,
+				4E25AD0D3C06422B9B8ED206 /* client_app.cc in Sources */,
+				F14792640BBE4965A1BF8D91 /* client_app_other.cc in Sources */,
+				31DBFB8D69BA44FBA78FB6DE /* client_switches.cc in Sources */,
+				D8CF9E4B8619403DA88DB367 /* process_helper_mac.cc in Sources */,
+				270391F7BBD64992866CB27E /* client_app_renderer.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B596E159C64EB083823FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6C200D2586490E84C7F74F /* binding_test.cc in Sources */,
+				1E9B0F19338F4C839F823187 /* browser_window.cc in Sources */,
+				E756CA929A534B8FAF05EC19 /* browser_window_osr_mac.mm in Sources */,
+				87A9E8446131412789B5B9C5 /* browser_window_std_mac.mm in Sources */,
+				6F5C8D145DA240DC8559CD3E /* bytes_write_handler.cc in Sources */,
+				E4E016A167544EAD9AA7446F /* client_app_delegates_browser.cc in Sources */,
+				8F99D4EB54274033A3432E0F /* client_browser.cc in Sources */,
+				AD5710E92A8C4D60AFDED7F3 /* client_handler.cc in Sources */,
+				806B0B20ABED4927AC210E85 /* client_handler_osr.cc in Sources */,
+				6FCDFA8CCEDD43DDAA13B609 /* client_handler_std.cc in Sources */,
+				79A0ECF699454D10A743348A /* dialog_test.cc in Sources */,
+				9AFB08F5EE184B72BA166DAA /* drm_test.cc in Sources */,
+				F030ACE66D9E45799CC66F68 /* image_cache.cc in Sources */,
+				20BB988C73154323B430565B /* main_context.cc in Sources */,
+				F9E3E0A1A7FB436FACAF171F /* main_context_impl.cc in Sources */,
+				62A626B658F54C39B058359A /* main_context_impl_posix.cc in Sources */,
+				81E95BA4BD8C4B97AD9ECDEC /* osr_accessibility_helper.cc in Sources */,
+				332ABFE51FDC4626975D8849 /* osr_accessibility_node.cc in Sources */,
+				5AF26E7BA0A34A3F843CC4D6 /* osr_accessibility_node_mac.mm in Sources */,
+				B257F3EC2DB4401280D81266 /* osr_renderer.cc in Sources */,
+				2DE33A8FADB545BC9D30C6DB /* preferences_test.cc in Sources */,
+				90A4F95A14B9464986DE365A /* response_filter_test.cc in Sources */,
+				98584FEB4F3A48EDA29010DC /* root_window.cc in Sources */,
+				5F79F0F2036D46879449DA63 /* root_window_create.cc in Sources */,
+				BE5B3BCF79AB4439A7EEBFDD /* root_window_mac.mm in Sources */,
+				E66A0196318540E3967F943F /* root_window_manager.cc in Sources */,
+				59A814357B724098A42AC212 /* scheme_test.cc in Sources */,
+				9304F950C41743BBAE8DE0DD /* server_test.cc in Sources */,
+				F9E60321804D49678D0BDD72 /* temp_window_mac.mm in Sources */,
+				1DB16565390349D790EBA60E /* test_runner.cc in Sources */,
+				EB428C6E1E6743DDAE0975D0 /* text_input_client_osr_mac.mm in Sources */,
+				C173503E369D4475AD6006DC /* urlrequest_test.cc in Sources */,
+				B07F4F844CBC4E99B33A534B /* window_test.cc in Sources */,
+				45D64863901A45988447E6CA /* window_test_runner.cc in Sources */,
+				BB89ED7854814758B1541D38 /* window_test_runner_mac.mm in Sources */,
+				DDEA93EFEC8A41289EADFA18 /* cefclient_mac.mm in Sources */,
+				F2F1E37B3EA14509BFF188B4 /* client_app_delegates_common.cc in Sources */,
+				5E6D254D89D1412C949B713A /* scheme_test_common.cc in Sources */,
+				F0C1B21665894AD09907C710 /* client_app_browser.cc in Sources */,
+				483975FA6A614CBEA1D7F17D /* extension_util.cc in Sources */,
+				4B899D08E59C494E89BB3179 /* file_util.cc in Sources */,
+				DA6B2B014F104BD9A37E15C4 /* geometry_util.cc in Sources */,
+				967C2C7FAD2545DE81C4A4A5 /* main_message_loop.cc in Sources */,
+				3C63CFB5F0E0447AB92DDAB1 /* main_message_loop_external_pump.cc in Sources */,
+				5B2D16B12F2B4F32BAE8992A /* main_message_loop_external_pump_mac.mm in Sources */,
+				E1E26F9C65854394A241596A /* main_message_loop_std.cc in Sources */,
+				9321A3F1CB9943F0BC8EE66F /* resource_util_mac.mm in Sources */,
+				62D3CD7DA99645C083878867 /* resource_util_posix.cc in Sources */,
+				5129D4F2A8D8449CA5EAF17C /* client_app.cc in Sources */,
+				E937831E44ED452B9CF0B40C /* client_app_other.cc in Sources */,
+				227BBDF7BF354C1AA8206F77 /* client_switches.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6A0725F97FC4737A396C77B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B0CEF19213349F4A642A3F6 /* cefclient_Helper */;
+			targetProxy = EA632C9E4EEB4B77A8E8A200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04170192E1664FB686C7C777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = "$(SRCROOT)/build";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		10CCFCFEF0AC4B5482DF71A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CODE_SIGN_ENTITLEMENTS = cefclient.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					__STDC_CONSTANT_MACROS,
+					__STDC_FORMAT_MACROS,
+					CEF_USE_SANDBOX,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = "$(SRCROOT)/tests/cefclient/resources/mac/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-strict-aliasing",
+					"-fstack-protector",
+					"-funwind-tables",
+					"'-fvisibility=hidden'",
+					"-Wall",
+					"-Werror",
+					"-Wextra",
+					"-Wendif-labels",
+					"-Wnewline-eof",
+					"-Wno-missing-field-initializers",
+					"-Wno-unused-parameter",
+					"'-mmacosx-version-min=10.9'",
+					"-fno-exceptions",
+					"-fno-rtti",
+					"-fno-threadsafe-statics",
+					"-fobjc-call-cxx-cdtors",
+					"-fvisibility-inlines-hidden",
+					"'-std=gnu++11'",
+					"-Wno-narrowing",
+					"-Wsign-compare",
+					"-Wno-undefined-var-template",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-ObjC",
+					"-Wl,-pie",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(SRCROOT)/libcef_dll_wrapper/Debug/libcef_dll_wrapper.a",
+					"-lpthread",
+					"-framework",
+					Cocoa,
+					"-framework",
+					AppKit,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cefclient;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "$(SRCROOT)//tests/cefclient";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		BBC8A6D685CD45F0B849A16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = "$(SRCROOT)/build";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		BD3308C34E09499F8632561A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CODE_SIGN_ENTITLEMENTS = "cefclient Helper.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					__STDC_CONSTANT_MACROS,
+					__STDC_FORMAT_MACROS,
+					CEF_USE_SANDBOX,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = "$(SRCROOT)/tests/cefclient/resources/mac/helper-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "$(TARGET_TEMP_DIR)/";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fno-strict-aliasing",
+					"-fstack-protector",
+					"-funwind-tables",
+					"'-fvisibility=hidden'",
+					"-Wall",
+					"-Werror",
+					"-Wextra",
+					"-Wendif-labels",
+					"-Wnewline-eof",
+					"-Wno-missing-field-initializers",
+					"-Wno-unused-parameter",
+					"'-mmacosx-version-min=10.13'",
+					"-fno-exceptions",
+					"-fno-rtti",
+					"-fno-threadsafe-statics",
+					"-fobjc-call-cxx-cdtors",
+					"-fvisibility-inlines-hidden",
+					"'-std=gnu++11'",
+					"-Wno-narrowing",
+					"-Wsign-compare",
+					"-Wno-undefined-var-template",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-ObjC",
+					"-Wl,-pie",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(SRCROOT)/libcef_dll_wrapper/Debug/libcef_dll_wrapper.a",
+					"-lpthread",
+					"-framework",
+					Cocoa,
+					"-framework",
+					AppKit,
+					"$(SRCROOT)/Debug/cef_sandbox.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cefclient Helper";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "$(SRCROOT)/tests/cefclient";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		BDF43F1FB41A461A8276AFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CODE_SIGN_ENTITLEMENTS = "cefclient Helper.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					__STDC_CONSTANT_MACROS,
+					__STDC_FORMAT_MACROS,
+					CEF_USE_SANDBOX,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = "$(SRCROOT)/tests/cefclient/resources/mac/helper-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "$(TARGET_TEMP_DIR)/";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fno-strict-aliasing",
+					"-fstack-protector",
+					"-funwind-tables",
+					"'-fvisibility=hidden'",
+					"-Wall",
+					"-Werror",
+					"-Wextra",
+					"-Wendif-labels",
+					"-Wnewline-eof",
+					"-Wno-missing-field-initializers",
+					"-Wno-unused-parameter",
+					"'-mmacosx-version-min=10.13'",
+					"-fno-exceptions",
+					"-fno-rtti",
+					"-fno-threadsafe-statics",
+					"-fobjc-call-cxx-cdtors",
+					"-fvisibility-inlines-hidden",
+					"'-std=gnu++11'",
+					"-Wno-narrowing",
+					"-Wsign-compare",
+					"-Wno-undefined-var-template",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-ObjC",
+					"-Wl,-pie",
+					"-Wl,-dead_strip",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(SRCROOT)/libcef_dll_wrapper/Release/libcef_dll_wrapper.a",
+					"-lpthread",
+					"-framework",
+					Cocoa,
+					"-framework",
+					AppKit,
+					"$(SRCROOT)/Release/cef_sandbox.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cefclient Helper";
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "$(SRCROOT)/tests/cefclient";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		E8B387CF2B004BEB9B29C4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CODE_SIGN_ENTITLEMENTS = cefclient.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					__STDC_CONSTANT_MACROS,
+					__STDC_FORMAT_MACROS,
+					CEF_USE_SANDBOX,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = "$(SRCROOT)/tests/cefclient/resources/mac/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fno-strict-aliasing",
+					"-fstack-protector",
+					"-funwind-tables",
+					"'-fvisibility=hidden'",
+					"-Wall",
+					"-Werror",
+					"-Wextra",
+					"-Wendif-labels",
+					"-Wnewline-eof",
+					"-Wno-missing-field-initializers",
+					"-Wno-unused-parameter",
+					"'-mmacosx-version-min=10.9'",
+					"-fno-exceptions",
+					"-fno-rtti",
+					"-fno-threadsafe-statics",
+					"-fobjc-call-cxx-cdtors",
+					"-fvisibility-inlines-hidden",
+					"'-std=gnu++11'",
+					"-Wno-narrowing",
+					"-Wsign-compare",
+					"-Wno-undefined-var-template",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-ObjC",
+					"-Wl,-pie",
+					"-Wl,-dead_strip",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(SRCROOT)/libcef_dll_wrapper/Release/libcef_dll_wrapper.a",
+					"-lpthread",
+					"-framework",
+					Cocoa,
+					"-framework",
+					AppKit,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cefclient;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "$(SRCROOT)//tests/cefclient";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EDC0208728A42AF846EC246 /* Build configuration list for PBXProject "cefclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC8A6D685CD45F0B849A16B /* Debug */,
+				04170192E1664FB686C7C777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		38AB9B5A8E8A45C0B90D77C1 /* Build configuration list for PBXNativeTarget "cefclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CCFCFEF0AC4B5482DF71A8 /* Debug */,
+				E8B387CF2B004BEB9B29C4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FD3FA17B224248F1A7BCC978 /* Build configuration list for PBXNativeTarget "cefclient_Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3308C34E09499F8632561A /* Debug */,
+				BDF43F1FB41A461A8276AFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB702E6FF8054717829CBD94 /* Project object */;
+}
