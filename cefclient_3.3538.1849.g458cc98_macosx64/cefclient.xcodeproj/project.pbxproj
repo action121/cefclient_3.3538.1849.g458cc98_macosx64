@@ -756,7 +756,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SYMROOT = "$(SRCROOT)/build";
@@ -817,7 +817,7 @@
 					"-Wnewline-eof",
 					"-Wno-missing-field-initializers",
 					"-Wno-unused-parameter",
-					"'-mmacosx-version-min=10.9'",
+					"'-mmacosx-version-min=10.13'",
 					"-fno-exceptions",
 					"-fno-rtti",
 					"-fno-threadsafe-statics",
@@ -863,7 +863,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SYMROOT = "$(SRCROOT)/build";
@@ -1119,7 +1119,7 @@
 					"-Wnewline-eof",
 					"-Wno-missing-field-initializers",
 					"-Wno-unused-parameter",
-					"'-mmacosx-version-min=10.9'",
+					"'-mmacosx-version-min=10.13'",
 					"-fno-exceptions",
 					"-fno-rtti",
 					"-fno-threadsafe-statics",
