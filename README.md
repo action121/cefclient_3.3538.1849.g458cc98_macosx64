@@ -12,8 +12,6 @@
 * Changed Minmun system version to 10.13 and Deprecated Functions to NO.
 * Changed postprocessing to run with Runscript
 
---
-
 CEF自体をビルドすると私の環境では12時間くらいかかりますので、機能を特に追加しない場合には
 [http://opensource.spotify.com/cefbuilds/index.html](http://opensource.spotify.com/cefbuilds/index.html) からビルド済みのFrameworkをダウンロードして使いましょう。   
 「Standard Distribution」をダウンロードして、CMakeで解凍したフォルダでConfigureをしてGenerateを行えばXcodeのプロジェクトができます。   
